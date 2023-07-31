@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html class="page-index" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>
+    </title>
+    <link rel="stylesheet" href="css/main.css?v=1580289732979">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  <body class="b-page js-page">
+    <nav class="b-main-nav b-page__nav-main">
+      <ul>
+        <li class="b-main-nav__item is-active"><a href="catalog.html">Меню</a></li>
+        <li class="b-main-nav__item"><a href="about.html">О компании</a></li>
+        <li class="b-main-nav__item"><a href="delivery.html">Доставка и оплата</a></li>
+        <li class="b-main-nav__item"><a href="news.html">Акции и новости</a></li>
+      </ul>
+    </nav>
+    <nav class="b-cat-nav b-page__nav-cat">
+      <ul class="b-cat-nav__list js-nav-cat">
+        <li class="b-cat-nav__item"><a href="#"> <span class="icon icon--roll"></span><span class="txt">Роллы</span></a></li>
+        <li class="b-cat-nav__item"><a href="#"> <span class="icon icon--sushi"></span><span class="txt">Суши</span></a></li>
+        <li class="b-cat-nav__item"><a href="#"> <span class="icon icon--set"></span><span class="txt">Сеты</span></a></li>
+        <li class="b-cat-nav__item"><a href="#"> <span class="icon icon--cake"></span><span class="txt">Закуски</span></a></li>
+        <li class="b-cat-nav__item"><a href="#"> <span class="icon icon--drink"></span><span class="txt">Напитки</span></a></li>
+      </ul>
+    </nav>
+    <header class="b-header b-page__header">
+      <div class="b-header__col b-header__col--logo">
+        <div class="b-logo"><a href="/">DAO Sushi
+            <svg>
+              <use xlink:href="images/sprites.svg#logo"></use>
+            </svg></a></div>
+      </div>
+      <div class="b-header__col b-header__col--btn">
+        <div class="b-btn-menu js-btn-menu"><span>menu</span></div>
+      </div>
+      <div class="b-header__col b-header__col--address"><a class="b-btn-address js-modal" href="#example-modal">зона доставки </a></div>
+      <div class="b-header__col b-header__col--cart">
+        <div class="b-btn-cart">Корзина<span>2</span></div>
+      </div>
+      <div class="b-header__col b-header__col--phone">
+        <ul class="b-list-phones">
+          <li class="b-list-phones__numb"><a class="b-phone-numb" href="tel:+380507356969">+38 050 735 69 69</a></li>
+          <ul class="b-list-phones__sub">
+            <li class="b-list-phones__numb"><a class="b-phone-numb" href="tel:+380507356969">+38 063 735 69 69</a></li>
+            <li class="b-list-phones__numb"><a class="b-phone-numb" href="tel:+380507356969">+38 068 735 69 69</a></li>
+          </ul>
+        </ul>
+        <div class="b-phones-mob">
+          <div class="b-phones-mob__btn js-btn-phone">open</div>
+          <ul class="b-phones-mob__list">
+            <li class="b-phones-mob__item"><a class="b-phone-numb" href="tel:+380507356969">+38 050 735 69 69</a></li>
+            <li class="b-phones-mob__item"><a class="b-phone-numb" href="tel:+380507356969">+38 063 735 69 69</a></li>
+            <li class="b-phones-mob__item"><a class="b-phone-numb" href="tel:+380507356969">+38 068 735 69 69</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="b-main b-page__main">
+      <div class="b-main__center">
+        <div class="b-txt-page b-txt-page--sm wow fadeInUp" data-wow-delay="0.5s">
+          <div class="b-txt-page__head">
+            <h2 class="b-tit">Корзина</h2>
+            <div class="b-cart-numb">Заказ № 123</div>
+          </div>
+          <div class="b-txt-page__entry">
+            <p>Все заказы содержат васаби, маринованый имбирь и соевый соус. <br>Сумма минимального заказа - 250 грн. </p>
+          </div>
+        </div>
+        <div class="b-cart cf">
+          <div class="b-cart__left">
+            <div class="b-cart-list">
+              <div class="b-cart-list__item wow fadeInLeft" data-wow-delay="0.5s">
+                <div class="b-cart-post">
+                  <div class="b-cart-post__img">
+                    <div class="b-cart-post__lb">
+                      <svg>
+                        <use xlink:href="images/sprites.svg#pepper"></use>
+                      </svg>
+                    </div><img src="images/uploads/img21.png" alt="Филадельфия с тунцом">
+                  </div>
+                  <div class="b-cart-post__txt">
+                    <h3 class="b-cart-post__tit">Филадельфия с тунцом</h3>
+                    <div class="b-cart-post__info">310гр</div>
+                  </div>
+                  <div class="b-cart-post__numb">
+                    <input class="js-input" type="number" min="1" max="100" step="1" value="1">
+                  </div>
+                  <div class="b-cart-post__price">270 грн</div>
+                  <div class="b-cart-post__btn">
+                    <button class="b-btn-close b-btn-close--lg">close</button>
+                  </div>
+                </div>
+              </div>
+              <div class="b-cart-list__item wow fadeInLeft" data-wow-delay="0.5s">
+                <div class="b-cart-post">
+                  <div class="b-cart-post__img">
+                    <div class="b-cart-post__lb">
+                      <svg>
+                        <use xlink:href="images/sprites.svg#pepper"></use>
+                      </svg>
+                    </div><img src="images/uploads/img21.png" alt="Филадельфия с тунцом">
+                  </div>
+                  <div class="b-cart-post__txt">
+                    <h3 class="b-cart-post__tit">Филадельфия с тунцом</h3>
+                    <div class="b-cart-post__info">310гр</div>
+                  </div>
+                  <div class="b-cart-post__numb">
+                    <input class="js-input" type="number" min="1" max="100" step="1" value="1">
+                  </div>
+                  <div class="b-cart-post__price">270 грн</div>
+                  <div class="b-cart-post__btn">
+                    <button class="b-btn-close b-btn-close--lg">close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <aside class="b-cart__right wow fadeInRight" data-wow-delay="0.5s">
+              <div class="b-cart__right-sticky" uk-sticky="offset: 130; bottom: #bottom;">
+                <div class="b-cart-widget">
+                  <h3 class="b-cart-widget__tit">Дополнения</h3>
+                  <div class="b-cart-widget__item">
+                    <div class="b-checkbox b-checkbox--ver3 js-checked"><span class="b-checkbox__info" id="add-txt1" data-toggle="popover" data-contentwrapper="#add1">Соус кешью </span><span class="b-checkbox__txt">3 грн</span>
+                      <input class="js-input" type="checkbox">
+                    </div>
+                  </div>
+                  <div class="b-cart-widget__item">
+                    <div class="b-checkbox b-checkbox--ver3 js-checked"><span class="b-checkbox__info" id="add-txt2" data-toggle="popover" data-contentwrapper="#add2">Соус для угря</span><span class="b-checkbox__txt">3 грн</span>
+                      <input class="js-input" type="checkbox">
+                    </div>
+                  </div>
+                  <div class="b-cart-widget__item">
+                    <div class="b-checkbox b-checkbox--ver3 js-checked"><span class="b-checkbox__info" id="add-txt3" data-toggle="popover" data-contentwrapper="#add3">Острый майонез</span><span class="b-checkbox__txt">3 грн</span>
+                      <input class="js-input" type="checkbox">
+                    </div>
+                  </div>
+                  <div class="b-cart-widget__item">
+                    <div class="b-checkbox b-checkbox--ver3 js-checked"><span class="b-checkbox__info" id="add-txt4" data-toggle="popover" data-contentwrapper="#add4">Семена кунжута</span><span class="b-checkbox__txt">30 грн</span>
+                      <input class="js-input" type="checkbox">
+                    </div>
+                  </div>
+                </div>
+                <div class="b-cart-widget">
+                  <div class="b-cart-widget__head">
+                    <h3 class="b-cart-widget__tit">Приборов</h3>
+                    <div>
+                      <input class="js-input" type="number" min="1" max="100" step="1" value="1">
+                    </div>
+                  </div>
+                </div>
+                <div class="b-cart-promo">
+                  <div class="b-cart-promo__fild">
+                    <input class="b-input" type="text" placeholder="Промокод">
+                  </div>
+                  <div class="b-cart-promo__btn"><a class="b-btn" href="#">Применить</a></div>
+                </div>
+              </div>
+            </aside>
+            <div class="b-cart-del js-tab">
+              <ul class="b-sort wow fadeInUp" data-wow-delay="0.5s">
+                <li class="b-sort__item"><a href="#courier">Курьер</a></li>
+                <li class="b-sort__item"><a href="#pickup">Самовывоз</a></li>
+              </ul>
+              <div class="wow fadeInUp" data-wow-delay="0.5s">
+                <div id="courier">
+                  <div class="b-cart-del__row cf">
+                    <div class="b-cart-del__left b-cart-del__left--middle"> 
+                      <label class="b-lb">Данные для доставки</label>
+                    </div>
+                    <div class="b-cart-del__right">
+                      <div class="b-fild b-fild--row">
+                        <div class="b-fild__col-2">
+                          <input class="b-input" type="text" placeholder="Имя">
+                        </div>
+                        <div class="b-fild__col-2">
+                          <input class="b-input js-mask-phone" type="tel" placeholder="Телефон *">
+                        </div>
+                      </div>
+                      <div class="b-fild b-fild--row">
+                        <div class="b-fild__col-2">
+                          <input class="b-input" type="text" placeholder="Улица *">
+                        </div>
+                        <div class="b-fild__col-2">
+                          <input class="b-input" type="text" placeholder="Дом *">
+                        </div>
+                      </div>
+                      <div class="b-fild b-fild--row">
+                        <div class="b-fild__col-2">
+                          <input class="b-input" type="text" placeholder="Корпус">
+                        </div>
+                        <div class="b-fild__col-2">
+                          <input class="b-input" type="text" placeholder="Подъезд">
+                        </div>
+                      </div>
+                      <div class="b-fild b-fild--row">
+                        <div class="b-fild__col-2">
+                          <input class="b-input" type="text" placeholder="Квартира">
+                        </div>
+                        <div class="b-fild__col-2">
+                          <input class="b-input" type="text" placeholder="Этаж">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-cart-del__row cf">
+                    <div class="b-cart-del__left b-cart-del__left--middle">
+                      <label class="b-lb">Время доставки</label>
+                    </div>
+                    <div class="b-cart-del__right">
+                      <div class="b-fild b-fild--row">
+                        <div class="b-fild__col-2">
+                          <input class="b-input b-input--date js-datepicker" type="text" placeholder="Дата">
+                        </div>
+                        <div class="b-fild__col-2">
+                          <select class="b-select js-select js-sel-scroll" data-placeholder="Время">
+                            <option></option>
+                            <option>10:00</option>
+                            <option>10:15</option>
+                            <option>10:30</option>
+                            <option>10:45</option>
+                            <option>11:00</option>
+                            <option>11:15</option>
+                            <option>11:30</option>
+                            <option>10:00</option>
+                            <option>10:15</option>
+                            <option>10:30</option>
+                            <option>10:45</option>
+                            <option>11:00</option>
+                            <option>11:15</option>
+                            <option>11:30	</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-cart-del__row cf">
+                    <div class="b-cart-del__left b-cart-del__left--middle">
+                      <label class="b-lb">Комментарий</label>
+                    </div>
+                    <div class="b-cart-del__right">
+                      <div class="b-fild">
+                        <input class="b-input" type="text" placeholder="например:код домофона">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-cart-del__row cf">
+                    <div class="b-cart-del__left"> 
+                      <label class="b-lb">Оплата</label>
+                    </div>
+                    <div class="b-cart-del__right">
+                      <div class="b-fild b-fild--row">
+                        <div class="b-fild__col">
+                          <label class="b-checkbox">
+                            <input class="js-input" type="checkbox">Наличными курьеру
+                          </label>
+                        </div>
+                        <div class="b-fild__col">
+                          <label class="b-checkbox">
+                            <input class="js-input" type="checkbox">Картой курьеру
+                          </label>
+                        </div>
+                        <div class="b-fild__col">
+                          <label class="b-checkbox">
+                            <input class="js-input" type="checkbox">Картой на сайте
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-cart-total">
+                    <div class="b-cart-total__left">Сумма к оплате: <span>300 грн</span></div>
+                    <div class="b-cart-total__right"><a class="b-btn js-modal" href="#order">Быстрый заказ</a><a class="b-btn" href="#">Оформить</a></div>
+                  </div>
+                </div>
+                <div id="pickup">
+                  <div class="b-cart-del__row cf">
+                    <div class="b-cart-del__left b-cart-del__left--middle"> 
+                      <label class="b-lb">Данные для доставки</label>
+                    </div>
+                    <div class="b-cart-del__right">
+                      <div class="b-fild b-fild--row">
+                        <div class="b-fild__col-2">
+                          <input class="b-input" type="text" placeholder="Имя">
+                        </div>
+                        <div class="b-fild__col-2">
+                          <input class="b-input js-mask-phone" type="tel" placeholder="Телефон *">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-cart-del__row cf">
+                    <div class="b-cart-del__left b-cart-del__left--middle">
+                      <label class="b-lb">Время доставки</label>
+                    </div>
+                    <div class="b-cart-del__right">
+                      <div class="b-fild b-fild--row">
+                        <div class="b-fild__col-2">
+                          <input class="b-input b-input--date js-datepicker" type="text" placeholder="Дата">
+                        </div>
+                        <div class="b-fild__col-2">
+                          <select class="b-select js-select js-sel-scroll" data-placeholder="Время">
+                            <option></option>
+                            <option>10:00</option>
+                            <option>10:15</option>
+                            <option>10:30</option>
+                            <option>10:45</option>
+                            <option>11:00</option>
+                            <option>11:15</option>
+                            <option>11:30</option>
+                            <option>10:00</option>
+                            <option>10:15</option>
+                            <option>10:30</option>
+                            <option>10:45</option>
+                            <option>11:00</option>
+                            <option>11:15</option>
+                            <option>11:30	</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-cart-del__row cf">
+                    <div class="b-cart-del__left b-cart-del__left--middle">
+                      <label class="b-lb">Комментарий</label>
+                    </div>
+                    <div class="b-cart-del__right">
+                      <div class="b-fild">
+                        <input class="b-input" type="text" placeholder="например:код домофона">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-cart-del__row cf">
+                    <div class="b-cart-del__left b-cart-del__left--middle">
+                      <label class="b-lb">Пункт самовывоза</label>
+                    </div>
+                    <div class="b-cart-del__right">
+                      <div class="b-fild">
+                        <select class="b-select js-select js-sel-scroll">
+                          <option>ул. Багговутовская,17/21 ТРЦ «Променада-Центр»</option>
+                          <option>ул. Багговутовская,17/21 ТРЦ «Променада-Центр» 2</option>
+                          <option>ул. Багговутовская,17/21 ТРЦ «Променада-Центр» 3</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-cart-del__row cf">
+                    <div class="b-cart-del__left"> 
+                      <label class="b-lb">Оплата</label>
+                    </div>
+                    <div class="b-cart-del__right">
+                      <div class="b-fild b-fild--row">
+                        <div class="b-fild__col">
+                          <label class="b-checkbox">
+                            <input class="js-input" type="checkbox">Наличными
+                          </label>
+                        </div>
+                        <div class="b-fild__col">
+                          <label class="b-checkbox">
+                            <input class="js-input" type="checkbox">Картой
+                          </label>
+                        </div>
+                        <div class="b-fild__col">
+                          <label class="b-checkbox">
+                            <input class="js-input" type="checkbox">Картой на сайте
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-cart-total">
+                    <div class="b-cart-total__left">Сумма к оплате: <span>300 грн</span></div>
+                    <div class="b-cart-total__right"><a class="b-btn js-modal" href="#order">Быстрый заказ</a><a class="b-btn" href="#">Оформить</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="bottom"></div>
+        <div class="sticky-bottom"></div>
+      </div>
+      <div id="order" style="display: none;">
+        <div class="b-modal">
+          <div class="b-modal__head">
+            <h3 class="b-sub-tit">Быстрый заказ</h3>
+            <div class="b-cart-numb">Заказ № 123</div>
+          </div>
+          <div class="b-modal__entry">
+            <p>Пожалуйста, заполните форму ниже и с вами свяжется наш менеджер в течении 15 минут для уточнения вашего заказа.</p>
+          </div>
+          <div class="b-modal__row cf">
+            <div class="b-modal__row-left b-modal__row-left--middle">
+              <label class="b-lb">Данные для доставки</label>
+            </div>
+            <div class="b-modal__row-right">
+              <div class="b-fild b-fild--row">
+                <div class="b-fild__col-2">
+                  <input class="b-input" type="text" placeholder="Имя">
+                </div>
+                <div class="b-fild__col-2">
+                  <input class="b-input js-mask-phone" type="tel" placeholder="Телефон *">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="b-modal__row cf">
+            <div class="b-modal__row-left b-modal__row-left--middle">
+              <label class="b-lb">Комментарий</label>
+            </div>
+            <div class="b-modal__row-right">
+              <div class="b-fild">
+                <input class="b-input" type="text" placeholder="например:код домофона">
+              </div>
+            </div>
+          </div>
+          <div class="b-modal__btn"><a class="b-btn" href="#">Оформить</a></div>
+        </div>
+      </div>
+      <div id="add1" style="display: none;">
+        <div class="b-btn-close js-close-pop" data-target="#add-txt1"></div>
+        <div class="popover__row">
+          <div class="popover__img"><img src="images/uploads/img22.png" alt=" "></div>
+          <div class="popover__txt"> 
+            <p>Орехи кешью</p>
+            <p>Вода</p>
+            <p>Лимонный сок</p>
+            <p>Соль, перец </p>
+          </div>
+        </div>
+      </div>
+      <div id="add2" style="display: none;">
+        <div class="b-btn-close js-close-pop" data-target="#add-txt2"></div>
+        <div class="popover__row">
+          <div class="popover__img"><img src="images/uploads/img22.png" alt=" "></div>
+          <div class="popover__txt"> 
+            <p>Орехи кешью</p>
+            <p>Вода</p>
+            <p>Лимонный сок</p>
+            <p>Соль, перец </p>
+          </div>
+        </div>
+      </div>
+      <div id="add3" style="display: none;">
+        <div class="b-btn-close js-close-pop" data-target="#add-txt3"></div>
+        <div class="popover__row">
+          <div class="popover__img"><img src="images/uploads/img22.png" alt=" "></div>
+          <div class="popover__txt"> 
+            <p>Орехи кешью</p>
+            <p>Вода</p>
+            <p>Лимонный сок</p>
+            <p>Соль, перец </p>
+          </div>
+        </div>
+      </div>
+      <div id="add4" style="display: none;">
+        <div class="b-btn-close js-close-pop" data-target="#add-txt4"></div>
+        <div class="popover__row">
+          <div class="popover__img"><img src="images/uploads/img22.png" alt=" "></div>
+          <div class="popover__txt"> 
+            <p>Орехи кешью</p>
+            <p>Вода</p>
+            <p>Лимонный сок</p>
+            <p>Соль, перец </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="b-footer b-page__footer">
+      <div class="b-flex">
+        <div class="b-footer__left">
+          <div class="b-logo"><a href="/">DAO Sushi
+              <svg>
+                <use xlink:href="images/sprites.svg#logo-grey"></use>
+              </svg></a></div>
+        </div>
+        <div class="b-footer__right">
+          <div class="b-footer__row">
+            <div class="b-footer__row-col">
+              <p>Оформить заказ:</p>
+              <p>+38 095 123 45 67</p>
+            </div>
+            <div class="b-footer__row-col">
+              <p>Время работы:</p>
+              <p>с 10:00 до 23:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="b-flex">
+        <div class="b-footer__right">
+          <nav class="b-share-nav">
+            <h3 class="b-share-nav__tit">Мы в соц. сетях:</h3>
+            <ul class="b-share-nav__list">
+              <li class="b-share-nav__item"><a class="icon-facebook" href="#"></a></li>
+              <li class="b-share-nav__item"><a class="icon-instagram" href="#"></a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="b-footer__left">
+          <p>Copyright © by Dao Sushi 2020. </p>
+          <p>All right reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <div id="example-modal" style="display: none;"><img src="images/uploads/map.jpg" alt="зона доставки"></div>
+    <script src="js/vendor.js?v=1580289732979"></script>
+    <script src="js/main.js?v=1580289732979"></script>
+  </body>
+</html>
